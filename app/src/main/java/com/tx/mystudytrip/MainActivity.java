@@ -36,9 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_frame:
                 startActivity(new Intent(this, FrameActivity.class));
                 break;
-            default:
 
-                break;
         }
     }
 }
